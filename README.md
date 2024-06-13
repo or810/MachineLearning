@@ -1,2 +1,35 @@
 # MachineLearning
 An implementation From Scratch of NeuralNetworks in Java.
+
+### Done one step at a time:
+
+### LinearRegression, LogisticRegression
+
+### => Perceptron
+
+### => NeuralNetwork(MLP)
+
+### => NeuralNetwork with adam.
+
+
+## General API:
+
+### The model's prediction based on what it has learned:
+```java
+public double[] predict(double[] input);
+```
+
+### The model's predictions for the whole dataset:
+```java
+public void testAll(double[][] input);
+```
+
+### For any type except Logistic Regression:
+```java
+public void train(double[][] input, double[][] target, int epochs);
+```
+### For Logistic Regression:
+```java
+ public void train(double[][] input, double[] target, int epochs);
+```
+
