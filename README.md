@@ -22,6 +22,8 @@ public static Object load(String filename);
 // Note:
 // As per Polymophism rules, the given object
 // should be downcasted explicitly.
+// Moreover, only models from this project
+// may be loaded.
 ```
 
 ### The model's prediction based on what it has learned:
