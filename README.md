@@ -1,2 +1,2 @@
 # MachineLearning
-An implementation from scratch of NeuralNetworks.
+An implementation From Scratch of NeuralNetworks in Java.
